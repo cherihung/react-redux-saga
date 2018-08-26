@@ -8,7 +8,7 @@ import watcherSaga from './sagas';
 
 const sagaMiddleware = createSagaMiddlware();
 /* eslint-disable no-underscore-dangle */
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE || compose;
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const getAppliedMiddleware = (routerhistory) => {
   if (process.env.NODE_ENV === 'development') {

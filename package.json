@@ -40,6 +40,8 @@
     "eslint-plugin-jest": "^21.22.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
+    "redux-devtools": "^3.4.1",
+    "redux-devtools-extension": "^2.13.5",
     "serve": "^10.0.0"
   }
 }
