@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "description": "react with redux and saga",
-  "homepage": "https://github.com/cherihung/react-ts-redux",
   "author": {
     "name": "Chienyi Cheri Hung",
     "url": "https://www.cyh.io/"
@@ -30,7 +29,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve:build": "serve -s build"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
@@ -40,6 +40,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^21.22.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-plugin-react": "^7.11.1",
+    "serve": "^10.0.0"
   }
 }
